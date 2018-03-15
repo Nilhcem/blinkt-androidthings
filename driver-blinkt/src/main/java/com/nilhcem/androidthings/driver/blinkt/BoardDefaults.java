@@ -26,7 +26,7 @@ public class BoardDefaults {
     }
 
     /**
-     * Return the preferred data port for each board.
+     * Return the preferred clock port for each board.
      */
     public static String getClockPort() {
         switch (Build.DEVICE) {
