@@ -3,7 +3,7 @@ package com.nilhcem.androidthings.driver.blinkt;
 import android.graphics.Color;
 
 import com.google.android.things.pio.Gpio;
-import com.google.android.things.pio.PeripheralManagerService;
+import com.google.android.things.pio.PeripheralManager;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -42,13 +42,13 @@ public class Blinkt implements Closeable {
      * @param clockGpioName Name of the clock GPIO pin
      */
     public Blinkt(String dataGpioName, String clockGpioName) throws IOException {
-        PeripheralManagerService pioService = new PeripheralManagerService();
+        PeripheralManager manager = PeripheralManager.getInstance();
 
-        dataGpio = pioService.openGpio(dataGpioName);
+        dataGpio = manager.openGpio(dataGpioName);
         dataGpio.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
         dataGpio.setActiveType(Gpio.ACTIVE_HIGH);
 
-        clockGpio = pioService.openGpio(clockGpioName);
+        clockGpio = manager.openGpio(clockGpioName);
         clockGpio.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
         clockGpio.setActiveType(Gpio.ACTIVE_HIGH);
 

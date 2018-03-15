@@ -26,6 +26,6 @@ ext {
     targetSdkVersion = 27
 
     dependencies = [
-        'androidthings' : 'com.google.android.things:androidthings:0.6.1-devpreview'
+        'androidthings' : 'com.google.android.things:androidthings:0.7-devpreview'
     ]
 }
