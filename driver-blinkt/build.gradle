@@ -28,7 +28,7 @@ publish {
     userOrg = 'nilhcem'
     groupId = 'com.nilhcem.androidthings'
     artifactId = 'driver-blinkt'
-    publishVersion = '0.0.1'
+    publishVersion = '0.0.2'
     desc = "Android Things driver for Pimoroni's Blinkt! hat."
     website = 'https://github.com/Nilhcem/blinkt-androidthings'
 }
