@@ -12,7 +12,7 @@ _Tested successfully on the Raspberry Pi 3, and the Pico i.MX7D._
 
 ```groovy
 dependencies {
-    implementation 'com.nilhcem.androidthings:driver-blinkt:0.0.2'
+    implementation 'com.nilhcem.androidthings:driver-blinkt:0.0.3'
 }
 ```
 

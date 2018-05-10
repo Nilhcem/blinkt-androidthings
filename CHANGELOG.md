@@ -1,6 +1,14 @@
 Change Log
 ==========
 
+## Version 0.0.3
+
+_2018-05-10_
+
+ *  Use the `1.0` version of the Android Things support library, which includes some API changes.
+ *  Remove support for the i.MX6UL.
+
+
 ## Version 0.0.2
 
 _2018-03-15_
