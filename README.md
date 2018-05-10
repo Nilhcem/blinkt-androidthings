@@ -1,6 +1,6 @@
 # Pimoroni Blinkt! driver for Android Things
 
-_Tested successfully on the Raspberry Pi 3, the Pico i.MX7D and the Pico i.MX6UL._
+_Tested successfully on the Raspberry Pi 3, and the Pico i.MX7D._
 
 
 ## Photo
