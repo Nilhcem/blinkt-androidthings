@@ -5,10 +5,9 @@ import android.graphics.Color;
 import com.google.android.things.pio.Gpio;
 import com.google.android.things.pio.PeripheralManager;
 
-import java.io.Closeable;
 import java.io.IOException;
 
-public class Blinkt implements Closeable {
+public class Blinkt implements AutoCloseable {
 
     /**
      * The direction to apply colors when writing LED data
