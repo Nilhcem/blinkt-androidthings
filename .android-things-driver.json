@@ -1,0 +1,19 @@
+{
+  "title": "Pimoroni Blinkt!",
+  "category": "RGB LEDs",
+  "samples": [
+    "https://github.com/Nilhcem/blinkt-androidthings/tree/master/sample"
+  ],
+  "published-maven": {
+    "maven-url": "https://jcenter.bintray.com",
+    "groupid": "com.nilhcem.androidthings",
+    "artifactid": "driver-blinkt"
+  },
+  "compatible-with": [
+    {
+      "title": "Pimoroni Blinkt!",
+      "photo": "https://cdn.shopify.com/s/files/1/0174/1800/products/Blinkt_67c0ebde-d0ab-474f-be1a-3a05b1e35489_1024x1024.JPG?v=1495811024",
+      "url": "https://shop.pimoroni.com/products/blinkt"
+    }
+  ]
+}
