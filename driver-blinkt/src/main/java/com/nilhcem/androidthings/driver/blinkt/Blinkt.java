@@ -36,7 +36,7 @@ public class Blinkt implements Closeable {
     }
 
     /**
-     * Create a new Apa102 driver.
+     * Create a new Blinkt driver.
      *
      * @param dataGpioName  Name of the data GPIO pin
      * @param clockGpioName Name of the clock GPIO pin
